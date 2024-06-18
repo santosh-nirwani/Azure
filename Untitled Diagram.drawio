@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T11:25:31.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.5.5" etag="Q554rEstmGDUjEdENezT" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T11:41:21.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="lr3UgSROe0-kXlYP2GNQ" version="24.5.5" type="github">
   <diagram name="Page-1" id="ZWN7ftTY27QMT1NeIo3V">
-    <mxGraphModel>
+    <mxGraphModel dx="906" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HZJH893_gzVahrMvy1SR-19" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="330" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120.28" width="68" height="40.72" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HZJH893_gzVahrMvy1SR-2" target="HZJH893_gzVahrMvy1SR-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="139" />
+              <mxPoint x="145" y="280" />
+              <mxPoint x="234" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="116" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Network_Gateways.svg;" vertex="1" parent="1">
+          <mxGeometry x="208" y="240" width="52" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="50" height="27.500000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machines_Classic.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.728;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HZJH893_gzVahrMvy1SR-1" target="HZJH893_gzVahrMvy1SR-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-15" value="Virtual Network Gateway&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-16" value="&lt;div&gt;Gateway Subnet&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-17" value="&lt;div&gt;Computer on remote/on-prem network&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-18" value="&lt;div&gt;P2S VPN Connection&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-20" value="&lt;div&gt;VNET&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-21" value="VM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZJH893_gzVahrMvy1SR-22" value="&lt;ul&gt;&lt;li&gt;Virtual network Gateway makes use of Gateway Subnet and creates VPN Software on VM needed for VPN&lt;/li&gt;&lt;li&gt;While creating Virtual Network Gateway we assign a public IP address, Thats how the Computers talk to VPG.&lt;/li&gt;&lt;li&gt;The VPG inter assigns private IP address from the pool which we configure.&lt;/li&gt;&lt;li&gt;Can make connection using certificate, which needs to be configured in P2S configuration and also downloaded on each client computer who wants to connect&lt;/li&gt;&lt;li&gt;Can also use Azure Entra ID as another mode of authentication by registering Azure VPN application on Entra ID.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="760" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
